@@ -15,9 +15,10 @@ Workshop documentation on building your own ESP32 based P1 smart meter reader
  
 ## Prepare your laptop for ESP development
 1. (Chess laptops) Request for administrator acces on your laptop
-1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
-1. File > Preferences, check the “Display line numbers option“
-1. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/RequestAdminAccess.JPG?raw=true" alt="Settings">
+3. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
+4. File > Preferences, check the “Display line numbers option“
+5. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">
 1. Tools > Boards > Boards Manager, install the "esp8266" board package
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
