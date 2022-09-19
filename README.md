@@ -11,38 +11,38 @@ Workshop documentation on building your own ESP32 based P1 smart meter reader
 - resistor 330Ohm between 3.3V Lilygo and pin 5 jumper/P1 (black/TXD)
 - (Optional) Capacitor between pin 3 and pin 5 jumper
 
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/IDE.png?raw=true" alt="Arduino IDE">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/IDE.png?raw=true" alt="Arduino IDE">
  
 ## Prepare your laptop for ESP development
 1. (Chess laptops) Request for administrator acces on your laptop
 1. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
 1. File > Preferences, check the “Display line numbers option“
 1. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/settings.png?raw=true" alt="Settings">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">
 1. Tools > Boards > Boards Manager, install the "esp8266" board package
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/boards.png?raw=true" alt="Boards manager">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
 1. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA" and the "PubSubClient" libraries
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/libraries.png?raw=true" alt="Libraries">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/libraries.png?raw=true" alt="Libraries">
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”ESP32 Dev Module”
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/select-board.png?raw=true" alt="select board">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/select-board.png?raw=true" alt="select board">
 
 When Connectivity to the board does not work:
 - Install the CP210x USB to UART driver and make sure you reboot your machine afterward (I suffered strange behaviors using the driver without rebooting) https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 - After rebooting open the Arduino IDE and select the proper board from Tools->Board->Board ”ESP32 Dev Module”
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/examples.png?raw=true" alt="Examples">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/examples.png?raw=true" alt="Examples">
 
 
 ## Test your laptop and nodeMCU setup
 - Load the example sketch “TFT_Clock” into the Arduino IDE from File->Examples->TFT_eSPI->160x128->
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/blink.png?raw=true" alt="Blink">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/blink.png?raw=true" alt="Blink">
 - Try compiling it by pressing the Verify button: 
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/verify.png?raw=true" alt="Verify">
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/verify.png?raw=true" alt="Verify">
 - When ok, connect the Liligo to your laptop:
 	- 	Connect the Lilygo with the USB cable
 	- 	Via Tools -> Port, check if the correct COMxx port is selected
 	- 	Upload the sketch by pressing the Upload button:
-	<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/master/images/upload.png?raw=true" alt="Upload">
+	<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/upload.png?raw=true" alt="Upload">
 	- 	Wait till the sketch is compiled and uploaded
 - A clock should now be visible on the display
 
