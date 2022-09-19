@@ -34,7 +34,7 @@ When Connectivity to the board does not work:
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/examples.png?raw=true" alt="Examples">
 
 
-## Test your laptop and nodeMCU setup
+## Test your laptop and ESP32 setup
 - Load the example sketch “TFT_Clock” into the Arduino IDE from File->Examples->TFT_eSPI->160x128->
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/blink.png?raw=true" alt="Blink">
 - Try compiling it by pressing the Verify button: 
