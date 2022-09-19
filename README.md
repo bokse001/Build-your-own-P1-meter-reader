@@ -13,7 +13,7 @@ Workshop documentation on building your own ESP32 based P1 smart meter reader
 
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/IDE.png?raw=true" alt="Arduino IDE">
  
-## Prepare your laptop for ESP development
+## Prepare your laptop for ESP32 development
 1. (Chess laptops) Request for administrator acces on your laptop
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/RequestAdminAccess.JPG?raw=true" alt="Settings">
 2. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
