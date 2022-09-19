@@ -20,7 +20,7 @@ Workshop documentation on building your own ESP32 based P1 smart meter reader
 3. File > Preferences, check the “Display line numbers option“
 4. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">
-1. Tools > Boards > Boards Manager, install the "esp8266" board package
+1. Tools > Boards > Boards Manager, install the "esp32" board package
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
 1. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA" and the "PubSubClient" libraries
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/libraries.png?raw=true" alt="Libraries">
