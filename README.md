@@ -4,6 +4,7 @@ Workshop documentation on building your own ESP32 based P1 smart meter reader
 ## Connect hardware on breadboard
 
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/lilygo_p1_meter_reader.png?raw=true" alt="Connecting the hardware">
+Be carefull how you connect the jumper, see colors below...
 
 - 5V Lilygo to pin 2 jumper/P1 (yellow/RTS)
 - GND Lilygo to pin 3 jumper/P1 (green/GND)
