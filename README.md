@@ -25,6 +25,7 @@ Be carefull how you connect the jumper, see colors below...
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
 1. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA", "button2" and the "PubSubClient" libraries
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/libraries.png?raw=true" alt="Libraries">
+1. download the TFT_eSPI.zip and unzip in your libraries folder
 1. Close and re-open Arduino IDE
 1. Select the proper board from Tools->Board->Board ”ESP32 Dev Module”
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/select-board.png?raw=true" alt="select board">
