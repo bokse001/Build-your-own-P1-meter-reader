@@ -25,7 +25,7 @@ Be carefull how you connect the jumper, see colors below...
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
 6. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA", "button2" and the "PubSubClient" libraries
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/libraries.png?raw=true" alt="Libraries">
-7. Download the TFT_eSPI.zip from the sketch folder  (or https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and unzip in your libraries folder
+7. Download the TFT_eSPI.zip from the sketch folder on this github (or https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and unzip in your libraries folder
 8. Close and re-open Arduino IDE
 9. Select the proper board from Tools->Board->Board ”ESP32 Dev Module”
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/select-board.png?raw=true" alt="select board">
@@ -50,7 +50,7 @@ When Connectivity to the board does not work:
 - A clock should now be visible on the display
 
 ## Test to see if the Lilygo can Display a picture
-- Download the example sketch TTGO-T-Display.zip from the sketches folder and unzip into your Documents/Arduino folder.
+- Download the example sketch TTGO-T-Display.zip from the sketch folder on this github and unzip into your Documents/Arduino folder.
 - Load the example sketch TTGO-T-Display.ino into the Arduino IDE from File->open or by double clicking it in the folder just created.
 - Try compiling it by pressing the Verify button 
 - When ok:
