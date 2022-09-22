@@ -15,14 +15,12 @@ Be carefull how you connect the jumper, see colors below...
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/IDE.png?raw=true" alt="Arduino IDE">
  
 ## Prepare your laptop for ESP32 development
-1. (Chess laptops) Request for administrator acces on your laptop
+1. (Chess laptops) Request for administrator access on your laptop
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/RequestAdminAccess.JPG?raw=true" alt="Settings">
-2. Install the Arduino.cc IDE software and launch the IDE and allow firewall access
-3. File > Preferences, check the “Display line numbers option“
-
-4. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
-<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">
-
+2. Install the Arduino.cc IDE software and launch the IDE and allow firewall access<br/>
+3. File > Preferences, check the “Display line numbers option“    <br/>
+4. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button 
+<img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">   
 5. Tools > Boards > Boards Manager, install the "esp32" board package
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
 6. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA", "button2" and the "PubSubClient" libraries
