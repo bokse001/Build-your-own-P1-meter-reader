@@ -21,13 +21,13 @@ Be carefull how you connect the jumper, see colors below...
 3. File > Preferences, check the “Display line numbers option“
 4. Add the URL https://dl.espressif.com/dl/package_esp32_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/settings.png?raw=true" alt="Settings">
-1. Tools > Boards > Boards Manager, install the "esp32" board package
+5. Tools > Boards > Boards Manager, install the "esp32" board package
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/boards.png?raw=true" alt="Boards manager">
-1. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA", "button2" and the "PubSubClient" libraries
+6. Sketch > Include Library > Manage Libraries, install the "ArduinoOTA", "button2" and the "PubSubClient" libraries
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/libraries.png?raw=true" alt="Libraries">
-1. Download the TFT_eSPI.zip from the sketch folder  (or https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and unzip in your libraries folder
-1. Close and re-open Arduino IDE
-1. Select the proper board from Tools->Board->Board ”ESP32 Dev Module”
+7. Download the TFT_eSPI.zip from the sketch folder  (or https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and unzip in your libraries folder
+8. Close and re-open Arduino IDE
+9. Select the proper board from Tools->Board->Board ”ESP32 Dev Module”
 <img src="https://github.com/bokse001/Build-your-own-P1-meter-reader/blob/main/images/select-board.png?raw=true" alt="select board">
 
 When Connectivity to the board does not work:
